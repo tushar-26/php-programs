@@ -36,7 +36,7 @@ else{
 }
 //---------------------------------------
 
-/*$temp = 14;
+$temp = 14;
                                  //~ both condition are true
 if($temp >=0 && $temp <=30){
     echo"weather is good <br>";
@@ -46,10 +46,36 @@ else{
 }
 //--------------------------------------------
 
-$temp = 0;
 
-if($temp)*/
+
+?>
+
+
+<?php 
+
+$book = "array";
+$price = 70;
+
+echo "this is about book. <br> book name is {$book}. price is {$price} <br>";
+echo "<br>";
+
+if($price == 406){
+    echo"you can purchase {$book} book😊";
+}
+elseif($price == 350 || $price == 405){
+    echo"just need to earn more money😀";
+}
+elseif($price >=150 && $price <=349){
+    echo"u dont have enough money🥲";
+}
+elseif($price >406){
+    echo"you can easily purchase this {$book} book😎";
+}
+elseif($price >=10 && $price <=149){
+    echo"idiot earn first then come😂";
+}
+
+?>
 
     
 
-?>

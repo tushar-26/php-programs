@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    background: linear-gradient(to right, rgb(89, 89, 238), rgb(235, 83, 83));
+}
+
+.form1{
+    height: 300px;
+    width: 300px;
+    
+    margin: auto;
+    box-shadow: inset cyan 0 0 10px;
+}
+div, .textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input1{
+    width: 100px;
+    
+}
+.input1::placeholder{
+    font-style: italic;
+    font-weight: 900;
+    color: blueviolet;
+}
+.picbox{
+    border: solid;
+    border-width: 1px;
+    border-color: darkcyan;
+    box-shadow:rgb(22, 22, 227) 0 0 7px;
+    transition: opacity 0.15s;
+}
+
+.picbox:hover{
+   
+    opacity: 0.5;
+}
+.picbox, .pic{
+    width: 100px;
+}
+.pic:hover{
+    width: 200px;
+}
