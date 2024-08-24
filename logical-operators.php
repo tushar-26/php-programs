@@ -74,6 +74,62 @@ elseif($price >406){
 elseif($price >=10 && $price <=149){
     echo"idiot earn first then come😂";
 }
+echo "<br>";
+
+?>
+
+<?php 
+
+$age = 18;
+$citizen = false;
+
+if(!$age >= 18 || !$citizen){
+  echo "u cannot vote <br>";
+}
+else{
+    echo "u can vote <br>";
+}
+//~----------------------------------------
+
+$child = true;
+$senior = false;
+$ticket = null;
+
+if($child || $senior){
+    $ticket = 10;
+    //echo "you are eligible for discount";
+}
+else{
+    $ticket = 15 + 1;
+    //echo "you aren't";
+}
+echo "ticket price is for you :\${$ticket} <br>";
+?>
+
+<?php 
+
+$grade = "h";
+
+if($grade == "A"){
+    echo "exellent";
+}
+elseif($grade == "B"){
+    echo "very good";
+}
+elseif($grade == "C"){
+    echo "good";
+}
+elseif($grade == "D"){
+    echo "needs improvement";
+}
+elseif($grade == "E"){
+    echo "disqualify";
+}
+else{
+    echo"{$grade} ERROR 404";
+}
+
+
 
 ?>
 
