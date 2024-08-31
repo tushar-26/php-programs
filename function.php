@@ -32,7 +32,7 @@ echo "<br>";
    //$total = max($x, $y, $z);          //maximum value
    //$total = min($x, $y, $z);        //minimum value
    //$total = pi();
-   $total = rand(90, 100);    //minimum and maximum
+   //$total = rand(90, 100);    //minimum and maximum
 
      echo $total; 
 

@@ -9,8 +9,8 @@
 <?php
 
 //?   logical operators = combine conditional statements 
-
 //!   if(condition1 == condition2)
+
 //&   && = true if both condition are true
 //*   || true if atleast one condition is true
 //^   ! true if false, false if true
@@ -28,7 +28,7 @@ else{
     echo"weather is good <br>.";
 }
 
-if($cloudy){
+if($cloudy == true){
     echo"it's cloudy <br>";
 }
 else{
@@ -36,13 +36,13 @@ else{
 }
 //---------------------------------------
 
-$temp = 14;
+$temp = 5;
                                  //~ both condition are true
 if($temp >=0 && $temp <=30){
     echo"weather is good <br>";
 }
 else{
-    echo"weathe is bad <br>";
+    echo"weather is bad <br>";
 }
 //--------------------------------------------
 
@@ -54,9 +54,9 @@ else{
 <?php 
 
 $book = "array";
-$price = 70;
+$price = 100;
 
-echo "this is about book. <br> book name is {$book}. price is {$price} <br>";
+echo "this is about book.book name is {$book}. price is {$price} <br>";
 echo "<br>";
 
 if($price == 406){
@@ -97,18 +97,18 @@ $ticket = null;
 
 if($child || $senior){
     $ticket = 10;
-    //echo "you are eligible for discount";
+    echo "you are eligible for discount <br>";
 }
 else{
     $ticket = 15 + 1;
-    //echo "you aren't";
+    echo "you aren't eligible for discount<br>";
 }
 echo "ticket price is for you :\${$ticket} <br>";
 ?>
 
 <?php 
 
-$grade = "h";
+$grade = "B";
 
 if($grade == "A"){
     echo "exellent";
@@ -126,8 +126,9 @@ elseif($grade == "E"){
     echo "disqualify";
 }
 else{
-    echo"{$grade} ERROR 404";
+    echo"{$grade} ERROR 404 <br>";
 }
+ echo "<br>thank you";
 
 
 

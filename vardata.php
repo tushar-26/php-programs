@@ -1,5 +1,5 @@
-<?php
-   
+<?php  
+   //?variable datatype
  $name="tushar savDiya";
   $food="Chole bhature";
   $email="tushar@gmail.com";
@@ -36,7 +36,4 @@
 
     $total = $quantity * $price * $tax_rate;
   echo "your total is \${$total}";
-
-
-
 ?>

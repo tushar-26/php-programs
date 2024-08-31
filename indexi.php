@@ -17,7 +17,7 @@
 </html>
 <?php 
 
- echo $_POST["Username"];
+ echo "your username is {$_POST["Username"]}";
  echo "</br>";
  echo $_POST["Password"];
 

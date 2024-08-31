@@ -9,7 +9,7 @@
     <form action="if.php" method="get">
         <lable>Age :</lable>
         <input type="text" name="age" placeholder="age">
-        <input type="submit" style="background-color:blueviolet; color: orange; padding: 7px;"
+        <input type="submit" style="background-color:blueviolet; color: orange; padding: 7px;">
     </form>
     
 </body>
@@ -17,7 +17,7 @@
 
 <?php 
 
-$age = -1;
+$age = $_GET["age"];
  
 if($age >=75){
     echo"u r too old";
@@ -38,7 +38,7 @@ else{
     echo"you aren't eligible";
 }
 
-//~ normal if statementt workong eith function
+//~ normal if statement workong with function
 
 
 

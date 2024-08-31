@@ -27,7 +27,7 @@
    //array_shift($capitals); //removing first
    echo count($capitals);
    echo "<br>";
-   //$cap;itals = array_reverse($capitals);
+   //$capitals = array_reverse($capitals);
    $keys = array_keys($capitals);  //to view only keys
    $values = array_values($capitals);   //to view only values
     $flipping = array_flip($capitals);

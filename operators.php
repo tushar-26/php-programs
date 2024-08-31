@@ -64,11 +64,14 @@
 
   $total = 1 + 2 - 3 * 4 / 5 ** 6;
 
-  echo $total;
+  echo "total is = {$total}";
   echo "</br>";
 
   $king = (1-2)**56/445+34-45%475*3;
-  echo $king;
+  echo "$king <br>";
+
+  $precedence = 34* 23 - 21 + 6857 / 35 ** 447;
+  echo ":= $precedence";
 
 ?>
 

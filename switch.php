@@ -2,7 +2,7 @@
 /* switches = replacement to using many elseif statements
 more efficiant less code to write*/
 
-$grade = "erhiewh";
+$grade = "A";
 
 switch($grade){
     case "A":

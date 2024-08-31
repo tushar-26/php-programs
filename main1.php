@@ -31,7 +31,7 @@
         .click{
             padding: 5px;
             position: absolute;
-            bottom: 20px;
+            bottom: 15px;
             left: 170px;
             
 

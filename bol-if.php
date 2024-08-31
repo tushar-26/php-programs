@@ -1,14 +1,14 @@
 <?php 
 
-/*$adult = false;
+$adult = false;
 
 if($adult == true){
 
-  echo"u can enter";  
+  echo"u can enter <br>";  
 }
 else{
-    echo"no";
-}*/
+    echo"no <br>";
+}
 
 
 ?>
