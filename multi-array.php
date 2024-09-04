@@ -11,7 +11,21 @@ $student = array(
                 );
 
 
-//echo $student=[0][1];
+
+echo "<pre>";
+
+                
+foreach($student as $st){
+
+    print_r($st[1]);
+
+}
+
+print_r($student);die;       //! die means program died when the start of  code.
+
+
+
+echo $student=[0][1];
 
 /*for($x = 0; $x<4; $x++)                //we could use count function if data is in large quantity
 {
