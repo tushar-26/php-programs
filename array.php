@@ -15,12 +15,16 @@ $food = array("apple","banana","guava","mango","orange");
  echo $food[1] . " fruit <br>";*/
 
 //$food[0] = "kiwi";
-//array_push($food, "cherry", "pineapple");
-//array_pop($food);
-//array_shift($food);
+
+array_push($food, "cherry", "pineapple");
+//$food[8] = "almond";
+//echo $food[6];
+//array_pop($food);  //removing last array
+//array_shift($food);   //removing first array
 //$food = array_reverse($food);
  $foods = count($food);
  echo "total numbers of fruits is {$foods} <br>";
+ //echo $food[6];
 
 
 //? foreach is better way for print all arrays

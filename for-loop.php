@@ -1,11 +1,11 @@
 <?php 
 //!repeat some code a certain ammount of times
 
-/*for($i = 10; $i > 0; $i--){
+for($i = 10; $i > 0; $i--){
     echo $i ."@ ". "hey";
 }
 
-for($i = 0; $i <= 100; $i +=2){
+/*for($i = 0; $i <= 100; $i +=2){
     //echo "number" ." ". $i;
     echo "number {$i} <br>";
      //echo"😂";
