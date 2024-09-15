@@ -3,7 +3,7 @@
 
 /*$fruit1 = "apple";
 $fruit2 = "banana";
-$fruit3 = "guava";       //^average method of printing multiple variables  😂
+$fruit3 = "guava";       //!vormie method of printing multiple variables  😂
 $fruit4 = "mango";
 $fruit5 = "orange";*/
 
@@ -31,6 +31,10 @@ array_push($food, "cherry", "pineapple");
  foreach($food as $array1){
     echo $array1. " fruit <br>";
  }
+ 
+
+ echo "<br>";
+ print_r($food);
 
 ?>
 

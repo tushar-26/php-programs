@@ -40,7 +40,8 @@
               border-color: black;
               border-width: 1px;
               border-radius: 10px;
-            
+              column-gap: 50px;
+              transition: 0.15s;
               color: blue;
               background-color: lightgreen;">
     <div style="background-color: lightblue;
@@ -56,9 +57,66 @@
     <style>
       .main:active{
         box-shadow:red 0 0 7px;
+        background-image: url(https://cdn.openart.ai/stable_diffusion/c32295c7c80ca5569a38d48d4167991a675e74a3_2000x2000.webp);
+        opacity: 0.7;
       }
+      table, tr, th, td{
+        border: solid 2px rgb(46, 181, 211);
+        border-collapse: none;
+       
+      }
+      table{
+        margin-top: 50px;
+        margin-left: 50px;
+        box-shadow: inset rgb(232, 59, 59) 0px 0px 20px;
+      text-align: center;
+       
+      }
+      table:hover{
+        box-shadow: red 0px 0px 20px;
+        
+      }
+      table:active{
+      box-shadow: blue 0px 0px 40px;
+      
     </style>
   </div>
+  
+  <table>
+    <tr>
+      <th>name</th>
+      <th>age</th>
+      <th>hobby</th>
+      <th>height</th>
+    </tr>
+
+      <tr>
+        <td>tushar</td>
+        <td>19</td>
+        <td>basket-ball</td>
+      <td>180cm</td>
+    </tr>
+
+    <tr>
+      <td>harsh</td>
+      <td>9</td>
+      <td>cricket</td>
+      <td>3feet</td>
+    </tr>
+  
+    <tr>
+      <td>dig</td>
+      <td>20</td>
+      <td>hardwork</td>
+      <td>175cm</td>
+    </tr>
+    <tr>
+      <td>vraj</td>
+      <td>20</td>
+      <td>masturbation</td>
+      <td>178cm</td>
+    </tr>
+  </table>
 </body>
 </html>
 

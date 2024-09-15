@@ -1,6 +1,6 @@
 <?php
 
-//^multidimentional array 1,2,3,4,5 etc.....
+//^multidimentional array 1,2,3,4,5 etc.....  multi verticals and horizontals
 
 
 $student = array(
@@ -21,7 +21,7 @@ foreach($student as $st){
 
 }
 
-print_r($student);die;       //! die means program died when the start of  code.
+print_r($student);die;       //! die means program RIP from this line
 
 
 

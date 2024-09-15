@@ -11,6 +11,8 @@
  echo "you have ordered {$Qty} x {$item}s </br>";
  echo "your total is: \${$total} <br>";
  echo $item;
+
+ echo $_GET["Qty"];
  
 
 

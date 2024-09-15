@@ -51,3 +51,50 @@
 
 
 ?>
+
+<?php 
+
+$hobby = ["tushar"=>"chess",
+          "harsh"=>"cricket",
+          "krn"=>"archery",
+          "vik"=>"m-bation",
+          "digvijay"=>"driving"];
+
+echo $hobby["tushar"];
+
+$karn = $hobby["krn"];
+
+echo "$karn <br>";
+
+$hobby["dada"] = "drink"; //add new 
+$hobby["vik"] = "no"; //value  change
+
+print_r($hobby); //human readeble
+echo "<br>";
+/*var_dump($hobby); // information about variable*/
+
+echo count($hobby);
+
+array_pop($hobby); //last remove
+array_shift($hobby); //first remove
+print_r($hobby);
+
+echo "<br>";
+$hobby1 = array_reverse($hobby); //reverse array
+print_r($hobby1);
+
+
+echo "<br>";
+print_r (array_keys($hobby));
+echo "<br>";
+print_r (array_values($hobby));
+echo "<br>";
+print_r(array_flip($hobby));
+
+
+echo "<br>";
+foreach($hobby as $key => $value){
+    echo "names are {$key} and hobbies are {$value} <br>";
+}
+
+?>
