@@ -13,13 +13,5 @@
  echo $item;
 
  echo $_GET["Qty"];
- 
-
-
- 
- 
- 
- 
- 
 
 ?>
