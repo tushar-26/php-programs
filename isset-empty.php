@@ -3,7 +3,7 @@
 //? empty = returns true if a variable is not declared, false or null ""
 
 
-$name = "tushar";
+$name = 5;
                                //isset
 echo isset($name);
 echo "<br>";
@@ -12,21 +12,21 @@ if(isset($name)){
     echo "true bcz declared";
 }
 else{
-    echo "falsenot declared";
+    echo "false not declared";
 }
 echo "<br>";
 echo "<br>";
 
-$id = null;
+$id = 56;
                               //empty
 echo empty($id);
 echo "<br>";
 
 if(empty($id)){
-    echo "not declared";
+    echo "true bcz not declared";
 }
 else{
-    echo "declared ";
+    echo "false bcz declared ";
 }
 
 

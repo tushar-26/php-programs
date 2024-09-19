@@ -8,10 +8,10 @@
 
 <?php
 
-//?   logical operators = combine conditional statements 
+//?   logical operators r combine conditional statements 
 //!   if(condition1 == condition2)
 
-//&   && = true if both condition are true
+//&   && true if both condition are true
 //*   || true if atleast one condition is true
 //^   ! true if false, false if true
 ?>

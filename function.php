@@ -27,8 +27,8 @@ echo "<br>";
    //$total = round($x);         //normal roundoff
    //$total = floor($x);         //rounddown
    //$total = ceil($x);          //roundup
-   //$total = pow($x, $y);        //works like exponent **
-   //$total = sqrt($x);                //square off
+   $total = pow($x, $y);        //works like exponent ** and square off 
+   //$total = sqrt($x);                //square root
    //$total = max($x, $y, $z);          //maximum value
    //$total = min($x, $y, $z);        //minimum value
    //$total = pi();
