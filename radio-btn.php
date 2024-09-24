@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>radio-btn</title>
+    <link rel="icon" href="tushar.png">
     <style>
         body{
         background: linear-gradient(to right, pink, skyblue);
@@ -20,10 +21,7 @@
         body:hover{
             box-shadow: inset blue 0px 0px 70px; 
         }
-       /*body:active{
-            box-shadow: blue 0px 0px 50px;
-            transition: box-shadow 0.50px;
-        }*/
+       o
         
     </style>
 </head>
@@ -44,7 +42,7 @@
 <?php 
 
 if(isset($_POST["confirm"])){
-   // $debit_credit = null;              //would be confirmed by sir
+  $debit_credit = null;                            // just for avoiding variable declaration error
 
 if(isset($_POST["debit-credit"])){
   $debit_credit = $_POST["debit-credit"];

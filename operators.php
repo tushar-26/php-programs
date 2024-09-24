@@ -71,8 +71,12 @@
   echo "$king <br>";
 
   $precedence = 34* 23 - 21 + 6857 / 35 ** 447;
-  echo ":= $precedence";
+  echo "precedence is :- $precedence";
 
+  
+
+
+  
 ?>
 
 

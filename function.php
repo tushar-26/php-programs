@@ -1,41 +1,46 @@
-<html>
-    <head>
-        <title>welcome</title>
-    </head>
-    <body style="background-color: black;
-                 color:aliceblue">
-    <form action="function.php" method="get">
-        <label>X :</label>
-        <input type="text" placeholder="Enter" name="valuex"><br>
-        <label>Y :</label>
-        <input type="text" placeholder="Enter" name="valuey"><br>
-        <label>Z :</label>
-        <input type="text" placeholder="Enter" name="valuez"><br>
-        <input type="submit" value="click">
-    </form>
-   
+
+
 
 <?php 
 
-    $x = $_GET["valuex"];
-    $y = $_GET["valuey"];
-    $z = $_GET["valuez"];
-    echo $x;
-echo "<br>";
-    $total = null;
-   //$total = abs($x);           //negetive to positive
-   //$total = round($x);         //normal roundoff
-   //$total = floor($x);         //rounddown
-   //$total = ceil($x);          //roundup
-   $total = pow($x, $y);        //works like exponent ** and square off 
-   //$total = sqrt($x);                //square root
-   //$total = max($x, $y, $z);          //maximum value
-   //$total = min($x, $y, $z);        //minimum value
-   //$total = pi();
-   //$total = rand(90, 100);    //minimum and maximum
+//^    function: write some code once, reuse when you need it
+//^    type() after funciton name to invoke
+//^    ex. add(), subtract(), multiplay(), divide()
 
-     echo $total; 
+function my_weaknesses($name, $age){                                   //*parameters
+    echo "{$name}'s masterbation age is $age <br>";
+    echo "{$name}'s negative thinking age is {$age}<br>";
+    echo "{$name}'s unknown fear age is {$age}<br>";
+    echo "{$name}'s these are my core weaknesses age is {$age}<br>";
+}
+
+my_weaknesses("tushar", 19);           //*arguments
+my_weaknesses("harsh", 19);
+my_weaknesses("king", 45);
+
+function is_even($number){
+ $result = $number % 2;
+ return $result;
+}
+echo is_even(10);
+
+function add($a, $b){
+  $c = $a + $b;
+  return $c;
+}
+ echo add(45,53); 
+ echo add(4,3);
+
+ echo "<br>";
+ function add2($a){
+ $a += 10;
+ return $a;
+ }
+ $num = 5;
+ echo add2($num);
+ 
+ echo "<br>";
+
+
 
 ?>
- </body>
- </html>

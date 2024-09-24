@@ -23,7 +23,7 @@ while($counter <= 199){
     echo "iloveu <br>";
 }*/
 
-$second = 0;
+/*$second = 0;
 $running = true;
 
 while($running == true){
@@ -35,8 +35,11 @@ while($running == true){
      $second++;
      echo $second ."<br>";
     }
-   
-}
+}*/
 
+$t = 6;
+do{
+    echo "hey";
+}while($t == 6);
 
 ?>
