@@ -6,6 +6,7 @@ if(isset($_COOKIE["username"])){
     echo $_COOKIE["username"];
 }*/
 
+setcookie("name","tushar",time()+ )
 session_start();
 
 $_SESSION["username"] = "tush";
