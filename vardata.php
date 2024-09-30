@@ -1,5 +1,6 @@
 <?php  
-   //?variable datatype
+   //? 2 variable datatype
+   
  $name="tushar savDiya";
   $food="Chole bhature";
   $email="tushar@gmail.com";

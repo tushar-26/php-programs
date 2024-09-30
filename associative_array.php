@@ -4,7 +4,7 @@
   </head>
 </html>
 <?php 
-
+//12
 
 /* associative array is an array made of key => value pairs
 
@@ -30,7 +30,7 @@
    //$capitals = array_reverse($capitals);
    $keys = array_keys($capitals);  //to view only keys
    $values = array_values($capitals);   //to view only values
-    $flipping = array_flip($capitals);
+    $flipping = array_flip($capitals);  
 
    foreach($capitals as $key => $value){
 

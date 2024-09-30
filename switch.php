@@ -1,4 +1,5 @@
 <?php 
+//8
 /* switches = replacement to using many elseif statements
 more efficiant less code to write*/
 

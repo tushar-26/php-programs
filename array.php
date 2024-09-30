@@ -1,4 +1,5 @@
 <?php
+//11
 //? array = "varialble" which can hold more than one value at a time
 
 /*$fruit1 = "apple";

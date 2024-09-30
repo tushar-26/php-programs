@@ -7,6 +7,7 @@
 
 
 <?php
+//7
 
 //?   logical operators r combine conditional statements 
 //!   if(condition1 == condition2)

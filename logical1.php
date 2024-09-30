@@ -29,6 +29,8 @@
 
 <?php 
 
+//7.1
+
 $book = $_POST["book"];
 $price = $_POST["price"];
 

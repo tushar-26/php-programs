@@ -14,6 +14,7 @@
 
 
 <?php 
+//10
 
 //^ while : do some code infinitely while some condition remains true
 

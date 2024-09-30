@@ -40,6 +40,7 @@
 </html>
 
 <?php 
+//14
 
 if(isset($_POST["confirm"])){
   $debit_credit = null;                            // just for avoiding variable declaration error

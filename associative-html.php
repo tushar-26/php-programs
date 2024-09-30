@@ -28,6 +28,7 @@
 </html>
  
 <?php 
+//12.1
 
 $capitals = ["INDIA"=>"Delhi",
                   "USA"=>"Washington D.C",
@@ -39,6 +40,7 @@ $capitals = ["INDIA"=>"Delhi",
 
 $capital = $capitals[$_POST["country"]];
 echo $capital;
+
 
 
 

@@ -1,4 +1,6 @@
 <?php 
+//13
+
 //& isset = returns true if a variable is declared and not null
 //? empty = returns true if a variable is not declared, false or null ""
 

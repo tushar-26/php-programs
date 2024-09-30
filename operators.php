@@ -23,7 +23,7 @@
 </html>
 
 <?php
-  // arithmetic operators
+  //? 3 arithmetic operators
   // + - * / ** %
 
   $x = 20;
