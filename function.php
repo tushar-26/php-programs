@@ -43,5 +43,10 @@ function add($a, $b){
  echo "<br>";
 
 
+ function hypotenues ($x, $y){
 
-?>
+     $z = sqrt($x ** 2 + $y ** 2);
+     return $z;
+
+ }
+ echo hypotenues(4,7); 
