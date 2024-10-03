@@ -1,7 +1,7 @@
 
 
 
-<?php 
+<?php /*
 //16
 
 //^    function: write some code once, reuse when you need it
@@ -50,3 +50,54 @@ function add($a, $b){
 
  }
  echo hypotenues(4,7); 
+ echo "<br>";
+
+ function mult($q, $w){
+
+echo $q * $w;
+
+ }
+ mult(2,2);
+ */
+
+ function add($a, $b){
+
+ echo $a + $b;
+
+ }
+  
+ if(add(2,4) <=6 || add(2,4)>=100){
+
+echo "its true";
+ }else{
+
+echo "its aint true";
+ }
+
+
+ switch(add(4,5)){
+
+  case 9:
+       echo"correct value";
+    break;
+  case 10:
+       echo"value is 10";
+    break;
+  case 4:
+       echo"its 4";
+    break;
+  case 19:
+       echo"its 19";
+     break;
+  case 56:
+       echo"its 56";
+     break;
+  default:
+    echo"404";
+    break;
+
+ }
+
+
+ ?>
+ 
