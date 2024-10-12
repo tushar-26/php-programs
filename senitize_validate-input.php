@@ -20,7 +20,7 @@ if(isset($_POST["login"])){
 
     $username = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
 
-   //$username = $_POST["name"];
+  // $username = $_POST["name"];
                                                                                  //it will convert value to given form
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 

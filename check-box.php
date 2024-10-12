@@ -24,7 +24,7 @@
 </html>
 
 <?php
-//15
+//15 
 
 if(isset($_POST["submit"])){ 
 
@@ -55,9 +55,11 @@ if(isset($_POST["submit"])){
     
 }
 
+echo "<br>";
+
 ?>
  
- <!--<html>
+ <html>
 <head>
     <title>checkbox</title>
 </head>
@@ -77,10 +79,10 @@ if(isset($_POST["submit"])){
     <input type="submit" value="done it" name="submit">
 </form>
 </body>
-</html>-->
+</html>
 
 <?php
-  /*                                     //~working with array
+                                    //~working with array
 if(isset($_POST["submit"])){ 
 
    // Check if the 'foods' array is set
@@ -88,13 +90,13 @@ if(isset($_POST["submit"])){
        $foods = $_POST["foods"];
    
        foreach($foods as $food){
-           echo $food . "<br>"; // Add a line break for better readability
+           echo $food ." 😋<br>"; // Add a line break for better readability
        }
    }
     else {
        echo "No food selected.";
    }
-}*/
+}
 
 ?>
 
