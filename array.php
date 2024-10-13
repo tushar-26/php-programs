@@ -37,6 +37,28 @@ array_push($food, "cherry", "pineapple");
  echo "<br>";
  print_r($food);
 
+ //
+ echo "<br>";
+
+ $name = array("tush","har","dig");
+
+$name[3] = "kar"; //add
+$name[1] = "harsh"; //change,update
+array_push($name,"vraj","roh");
+//array_shift($name); //remove first
+//array_pop($name);  //remove last
+
+$re = array_reverse($name);
+
+//$merge = array_merge($food,$name);
+
+print_r($name);
+
+echo $name[0] . "is im and " . $name[1] . " is my bro";
+
+foreach($re as $key=>$value){
+   echo $re;
+}
 ?>
 
 

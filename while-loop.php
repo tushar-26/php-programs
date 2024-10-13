@@ -38,9 +38,15 @@ while($running == true){
     }
 }*/
 
-$t = 6;
+/*$t = 6;
 do{
     echo "hey";
 }while($t == 6);
+*/
+
+$name = "kks";
+while($name == "tushar1" || $name == "kk"){
+    echo "ilove";
+}
 
 ?>

@@ -56,4 +56,31 @@ switch($date){
         echo "{$date} is invalid";
 }
 
+//
+
+
+$name = "der";
+
+switch($name){
+    case "tush":
+    echo "its me";
+    break;
+    case "harsh":
+    echo "its bro";
+    break;
+    case "dig":
+    echo "its frnd";
+    break;
+    case "ego":
+    echo "its enemy";
+    break;
+    case "height":
+    echo "its desire";
+    break;
+    default:
+    echo "errorm404";
+    break;
+
+}
+
 ?>

@@ -1,4 +1,4 @@
-<html>
+<!--<html>
     <head>
         <title>welcome</title>
     </head>
@@ -12,12 +12,12 @@
         <label>Z :</label>
         <input type="text" placeholder="Enter" name="valuez"><br>
         <input type="submit" value="click">
-    </form>
+    </form>-->
    
 
 <?php 
 // 5
-
+/*
     $x = $_GET["valuex"];
     $y = $_GET["valuey"];
     $z = $_GET["valuez"];
@@ -36,7 +36,38 @@ echo "<br>";
    //$total = rand(90, 100);    //minimum and maximum
 
      echo $total; 
-
+*/
 ?>
  </body>
  </html>
+
+ <?php
+ 
+ $g = 56.3;
+
+ echo gettype($g);
+
+ $i = settype($g,"integer");
+ echo gettype($g);
+
+ if(isset($g)){
+    echo "not null";
+ }else{
+    echo "null";
+ }
+
+ echo intval($g);
+ 
+echo"<br>";
+ 
+ ?>
+
+ <?php 
+ 
+ $n = 45.4;
+
+//echo abs($n);
+//echo round($n);
+//echo ceil($n);
+//echo floor($n);
+ 

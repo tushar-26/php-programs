@@ -97,4 +97,14 @@ foreach($hobby as $key => $value){
     echo "names are {$key} and hobbies are {$value} <br>";
 }
 
+//
+
+$fullname = ["tushar" => "savdiya",
+             "digvijay" => "parmar",
+             "rohit" => "raval"];
+
+echo $fullname["tushar"];
+$fullname["digvijay"] = "chauhan";
+
 ?>
+
