@@ -7,4 +7,7 @@ require('locations.php');
 
 echo "this is the owed page";
 
+include('locations.php');
+
+
 ?>

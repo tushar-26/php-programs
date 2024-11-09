@@ -61,7 +61,7 @@ session_start();
         }
         if(!empty($_SESSION["username"]) && !empty($_SESSION["password"])){
 
-            header("Location: sess.php");
+            header("Location: sess.php"); //rediretpn f tw page
         }
          
     } 

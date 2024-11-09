@@ -24,5 +24,7 @@ foreach( $_SERVER as $key => $value){
     echo "$key = $value" . "<br>";
 }
 
+echo $_SERVER["SERVER_NAME"];
+echo $_SERVER["SERVER_SOFTWARE"];
 
 ?>

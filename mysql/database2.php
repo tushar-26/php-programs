@@ -1,4 +1,4 @@
-<?php 
+<?php /*
 //24
 
 // 1. Mysqli extension
@@ -8,7 +8,7 @@
 $db_server = "localhost";
 $db_user = "root";
 $db_password = "";
-$db_name = "bussinessdb";
+$db_name = "bussiness";
 $conn = "";
 
 
@@ -25,35 +25,27 @@ if($conn){
     echo"succsessfully connected";
 }else{
     echo "there was a any problem";
-}
-
-
-
+}*/
 ?>
-
 
 <?php 
 
 $db_server = "localhost";
 $db_user = "root";
 $db_password = "";
-$db_name = "Msystem";
+$db_name = "business";
 $conn = "";
-try{
+
+mysqli_report(MYSQLI_REPORT_OFF);
+
 $conn = mysqli_connect($db_server,
-                        $db_user,
-                        $db_password,
-                        $db_name
-);}
+                       $db_user,
+                       $db_password,
+                       $db_name);
 
-catch(mysqli_sql_exception){
-    echo "please make sure that u have created a database to the xampp";
-}
+    if(mysqli_connect_errno()){
+        echo "failed to connect" . mysqli_connect_error();
+    }
 
-if($conn){
-    echo "successfullly connected";
-}else{
-    echo "not connected";
-}
 
 ?>
