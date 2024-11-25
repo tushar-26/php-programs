@@ -44,13 +44,13 @@
 
   //increment/decrement operator
 
-  $counter = 10;
+  $counter = 100;
   
 
-  $counter-= 11;
+  $counter-= 10;
 
   $age = 18;
-  $age--;
+  $age++;
 
   echo "$counter <br>";
   echo "$age <br>";

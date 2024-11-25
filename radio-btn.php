@@ -21,8 +21,7 @@
         body:hover{
             box-shadow: inset blue 0px 0px 70px; 
         }
-       o
-        
+               
     </style>
 </head>
 <body>
@@ -34,7 +33,7 @@
         <input type="SUBMIT" name="confirm" value="CONFIRM" style="
         background-color: gray; color:white; 
         font-family:cursive; border: solid 7px black; 
-        padding: 5px 10px 5px 10px; margin: 15px 0px 10px 0px;">
+        padding: 5px 10px 5px 10px; margin: 15px 0px 0px 0px;">
     </form>
 </body>
 </html>

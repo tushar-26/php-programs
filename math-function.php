@@ -17,7 +17,7 @@
 
 <?php 
 // 5
-/*
+
     $x = $_GET["valuex"];
     $y = $_GET["valuey"];
     $z = $_GET["valuez"];
@@ -36,7 +36,7 @@ echo "<br>";
    //$total = rand(90, 100);    //minimum and maximum
 
      echo $total; 
-*/
+
 ?>
  </body>
  </html>

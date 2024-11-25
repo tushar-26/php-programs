@@ -12,6 +12,7 @@
             font-weight:900;
             padding: 30px;
             font-size: 30px;
+            box-shadow: inset blue 0 0 20px;
 ">
    <form action="check-box.php" method="post">
     <input type="checkbox" name="pizza" value="Pizza">Pizza</br>

@@ -93,7 +93,7 @@ echo "its aint true";
        echo"its 56";
      break;
   default:
-    echo"404";
+    echo"404";        
     break;
 
  }

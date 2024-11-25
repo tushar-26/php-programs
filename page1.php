@@ -24,7 +24,7 @@
     <style>
 
         body{
-            background: linear-gradient(to right, lightblue, lightpink);
+    
             background: linear-gradient(to left, lightcyan, orange);
             
         }
@@ -53,7 +53,7 @@
             position: relative;
             margin: 20px 20px;
             display: grid;
-            grid-template-columns: 150px 150px;
+            grid-template-columns: 15px 150px;
             padding: 20px 30px 20px 50px;
         
             width: 300px;
@@ -77,7 +77,7 @@
             border: solid;
             border-width: 2px;
             border-color: blue;
-            box-shadow: blue 0px 0px 1px;
+            box-shadow: red inset 0px 0px 10px;
             transition: padding 0.15s;
         }
         .box:hover:active{
@@ -120,13 +120,6 @@ $total = $price * $qty;
 echo "$name <br>";
 echo "$price <br>";
 echo "$qty <br>";
-echo "$total <br>";
-
-echo "your stock name is {$name}. good  choice <br>";
-echo "your stock price is {$price}. <br>";
-echo "your shares quantity is {$qty}. <br>";
-echo "</br>";
-echo "total price of value is {$total}";
-
+ 
 
 ?>
