@@ -15,7 +15,7 @@ foreach($_COOKIE as $key => $value){
     echo "$key = $value <br>";
 }
 echo "<br>";
-
+// added
 if(!empty($_COOKIE["fav_movie"])){
 
     echo "purchase ticket of your favorite movie :{$_COOKIE["fav_movie"]} !! <br>";
